@@ -24,6 +24,10 @@
 
 `#include <mqueue.h>`
 
+`#include <fcntl.h>`
+
+`#include <sys/stat.h>`
+
 创建或打开消息队列
 
 `mqd_t mq_open(const char *name, int oflag);`
